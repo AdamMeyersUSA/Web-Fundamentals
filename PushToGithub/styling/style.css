@@ -1,0 +1,15 @@
+h1{
+    background-color: black;
+    min-height: 15%;
+}
+
+h2{
+    text-align: center;
+    background-color: blueviolet;
+    min-height: 15%;
+}
+h3{
+    text-align: end;
+    min-height: 15%;
+    background-color: cadetblue;
+}
