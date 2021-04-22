@@ -1,0 +1,32 @@
+#A{
+    text-align: center;
+    color: darkgreen;
+    border-color: rgb(240, 22, 156);
+    background-color: rgb(236, 233, 233);
+    height: 20px;
+    width: 90px;
+    border: thistle;
+    border: 2px solid;
+    border-radius: 15px;
+    
+}
+#B{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background: lightblue;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: lightseagreen;
+    
+}
+#C{
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+    height: 20px;
+    width: 130px;
+    box-shadow: 4px 4px black;
+    
+}
