@@ -1,0 +1,53 @@
+.container{
+    height: 700px;
+    background-color: darkgrey;
+    width: 100%;
+}
+
+.top{
+    margin: 16px;
+    padding: 10px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-evenly ;
+    height: 130px;
+    width: 100%;
+
+}
+
+.mid{
+    margin: 16px;
+    padding: 10px;
+    background-color: deeppink;
+
+    display: flex;
+    justify-content: space-evenly ;
+    height: 130px;
+    width: 100%;
+
+}
+
+.bot{
+    margin: 16px;
+    padding: 10px;
+    background-color: floralwhite;
+    display: flex;
+    justify-content: space-evenly ;
+    height: 130px;
+    width: 100%;
+
+}
+
+.title{
+    height: 25px;
+    display: flex;
+    justify-content: space-evenly ;
+
+}
+
+.butt{
+    height: 15px;
+    display: flex;
+    justify-content: center ;
+
+}
