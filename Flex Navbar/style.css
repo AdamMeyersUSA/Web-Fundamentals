@@ -7,8 +7,30 @@
     width: 100%;
     display: flex;
     
+    
 
 }
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+ul li{
+    
+    color: white;
+    list-style-type: none;
+    /* this gets rid of dots next to listed items */
+    margin-right: 20px;
+    opacity: .75;
+    /* change the opacity to create the hover effect on the li items */
+    
+}
+
+ul li:hover{
+    opacity: 1;
+}
+
 
 .nav-links{
     
