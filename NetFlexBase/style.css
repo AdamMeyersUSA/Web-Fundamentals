@@ -11,39 +11,99 @@ body {
 .nav{
     display: flex;
     justify-content: space-between;
-    height: 80px;
-    background-color: blueviolet;
     align-items: center;
 
 
 }
 
 .navleft{
-    width: 400px;
-    height: 60px;
-    background-color: cornsilk;
+    display: flex;
+    margin-right: 5px
 
 
 }
 
-.navright{
-    width: 200px;
-    height: 60px;
-    background-color: cornsilk;
+.navleft h1{
+    color: red;
+    margin: 0px;
+}
 
+.navleft ul{
+    display: flex;
+    align-items: center;
+}
+
+ul li{
+    list-style-type: none;
+    /* this gets rid of dots next to listed items */
+    margin-right: 20px;
+    opacity: .75;
+    /* change the opacity to create the hover effect on the li items */
+    
+}
+
+ul li:hover{
+    opacity: 1;
+}
+
+.navright img{ 
+    width: 40px;
+    border-radius: 50%;
+}
+
+.navright{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.navright input{
+    height: 20px;
+    width: 150px;
+    background-color: black;
+    border-color: ghostwhite;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+/* 
+This code bellow centers the text inside search bar */
+.navright input::placeholder{
+    text-align: center;
 }
 
 
 .title{
-    
+    margin-top: 10px;
     margin: 0px;
-    padding: 10px 2px;
+    padding: 20px 2px;
 
 }
 
 
 .main{
+    display: flex; 
+    /* this makes the pictures side by side^ */
+    flex-wrap: wrap;
+    /* this makes the overflow go to second row */
     height: 600px;
-    background-color: crimson;
+}
 
+.show{
+    margin: 3px;
+    margin-bottom: 50px;
+}
+ 
+.show img{
+    width: 240px;
+    height: 135px;
+    object-fit: cover;
+}
+
+.show img:hover{
+    box-shadow: 0px 0px 10px lightcoral;
+    /* This gives a red shadow to the image the mouse hovers over */
+}
+
+.show h4 {
+    margin: 5px 0px;
 }
