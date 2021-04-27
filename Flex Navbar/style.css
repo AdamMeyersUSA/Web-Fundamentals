@@ -11,7 +11,8 @@
 
 }
 
-a:link{
+a:link, a:visited,a:hover,a:active{
+    /* These are all the states of a, use all of these to keep the color the same  */
     text-decoration: none;
     color: white;
 }
@@ -33,7 +34,9 @@ ul li:hover{
 
 
 .nav-links{
-    
+    font-size: 15pt;
+    margin-right: 140px;
+    display: flex;
     font-family: 'Roboto', sans-serif;
     color: white;
     background-color: rgb(88, 88, 86);
@@ -46,6 +49,8 @@ ul li:hover{
 
 
 .btn{
+    height: 40px;
+    width: 100px;
     border-radius: 0%;
     border-color: black;
     box-shadow: black 5px 5px;
